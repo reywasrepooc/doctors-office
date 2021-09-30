@@ -1,4 +1,4 @@
-### 1. Appointment Model - DONE
+### 1. Appointment Model
 
 To keep track of doctors' appointments, we need an Appointment model. **Make the necessary updates to the schema and models** so that:
 
@@ -6,7 +6,7 @@ To keep track of doctors' appointments, we need an Appointment model. **Make the
 - Doctor can have multiple patients
 - Appointment has :date(datetime) and :notes(text) columns
 
-### 2. New Appointment Form - DONE
+### 2. New Appointment Form
 
 A user can fill out a form to create a new Appointment. They can:
 
@@ -17,7 +17,7 @@ A user can fill out a form to create a new Appointment. They can:
 
 After submitting the form, the user should be redirected to the selected doctor's show page.
 
-### 3. Doctor Show Page - DONE
+### 3. Doctor Show Page
 
 On the doctor show page, a user should see:
 
@@ -25,7 +25,7 @@ On the doctor show page, a user should see:
 - A list of the patients who the doctor is seen by
 - Each patient's name should link to their show page.
 
-### 4. Patient Show Page Doctor links - DONE
+### 4. Patient Show Page Doctor links
 
 On the Patient show page, add a list of the Doctors the Patient has seen.
 
